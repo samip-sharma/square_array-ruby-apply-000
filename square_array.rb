@@ -1,8 +1,7 @@
 def square_array(array)
   result=[]
-  return array.each do |num|
-    array<< num*num
-    array.unshift
+  array.each do |num|
+    result<< num*num
   end
- 
+ result
 end
